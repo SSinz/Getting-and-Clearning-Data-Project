@@ -1,5 +1,6 @@
 # Getting-and-Clearning-Data-Project
 Part of the Coursera Data Science Specialisation
+#Please see the CodeBook for more detailed information
 #Description:
 The Run_Analysis R Script cleans the data.
 #Data 
