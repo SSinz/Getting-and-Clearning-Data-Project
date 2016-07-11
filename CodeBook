@@ -1,0 +1,26 @@
+#Run_Analysis R Script
+The Run_Analysis R Script can be categorsied into 5 steps.
+  1. Defines the file path.
+     Inserts the Features,Subject, and Activity Data into the R Envrionment using the read.table()
+  2.Then merges the Row of the data sets using the rbind()
+    Thus producing 3 data sets from 6 previous ones.
+    Then sets the anmes for the three data sets
+    Finally, merges all three data sets into 1 data set
+  3.Extracts the measurements that are either standard deviation or mean values
+    Then subsets the columns for the feature names using the grep()
+  4. Then labels the data through factorising
+     Also renames the initial names, using the gsub() by extending the abbreviated names of the variables
+  5. Creates a Tidy data set
+  
+# Files in the Data Set
+The initial files: x_test.txt, x_train.txt, subject_test.txt, subject_train.txt, Y_test.txt, Y_train.txt
+  These files were then merged, in the 2nd step of the Run_analysis R script.
+
+These files were then merged:
+  FeaturedData variable consists of x_test.txt and x_train.txt
+  SubjectData variable consists of subject_test.txt and subject_train.txt
+  ActivityData variable consists of y_test.txt and y_train.txt
+
+All the aforementioned files were then combined into the Data data set
+
+After the analysis is run, the new tidy data set is produced => DataTidy
