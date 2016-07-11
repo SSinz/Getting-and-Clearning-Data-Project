@@ -24,3 +24,14 @@ These files were then merged:
 All the aforementioned files were then combined into the Data data set
 
 After the analysis is run, the new tidy data set is produced => DataTidy
+
+#Identifiers in the Data set
+- Subject: is the Indicator of the test subject
+- Activity: is the type of activity that was performed by the test subjects - and measurements taken
+#Activity Labels:
+  Walking
+  Walking_Upstairs
+  Walking_Downstairs
+  Sitting
+  Standing
+  Laying
